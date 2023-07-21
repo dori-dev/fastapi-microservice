@@ -14,10 +14,15 @@ Run the rpc servers.
 
 ```bash
 python rpc/server.py
+```
 
-# run second consumer
+```bash
 python3 rpc/notification_server.py
+```
 
+Run the application
+
+```bash
 # run web server
 uvicorn app:main --reload
 ```
