@@ -1,4 +1,4 @@
-# Simple Microservice with FastAPI & RPC
+# Simple Microservice with FastAPI & RabbitMQ
 
 The simple microservice project that use `FastAPI` and `RabbitMQ`.
 
@@ -17,14 +17,13 @@ python rpc/server.py
 ```
 
 ```bash
-python3 rpc/notification_server.py
+python rpc/notification_server.py
 ```
 
 Run the application
 
 ```bash
-# run web server
 uvicorn app:main --reload
 ```
 
-Home Page: [localhost:8000/fib/5](http://localhost:8000/fib/5/)<br>
+Home Page: [localhost:8000/fib/10](http://localhost:8000/fib/10/)<br>
