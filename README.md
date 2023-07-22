@@ -1,4 +1,4 @@
-# Simple Microservice with FastAPI & RabbitMQ
+# Simple Microservice
 
 The simple microservice project that use `FastAPI` and `RabbitMQ`.
 
